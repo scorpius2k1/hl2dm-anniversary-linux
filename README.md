@@ -2,7 +2,7 @@
 ![Half Life 2: Deathmatch 20th Anniversary Linux](http://f.scorpex.org/i/90106db5b72cab30ac44d5faa32686ff.png)
 
 ## Table of Contents
-- [Description](#-information)
+- [Information](#-information)
 - [Prerequisites](#-prerequisites)
 - [Disclaimer](#-disclaimer)
 - [How does this work?](#-how-does-this-work)
