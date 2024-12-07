@@ -1,10 +1,12 @@
 <a name="top"></a>
 ![Half Life 2: Deathmatch 20th Anniversary Linux](http://f.scorpex.org/i/90106db5b72cab30ac44d5faa32686ff.png)
 
+## ⚠️ Disclaimer
+While this workaround works using the official HL2 binary, it is not _officially_ supported by Valve. There is a risk that this workaround could potentially trigger a VAC ban on the account being used. At this time, there has not been enough testing to confirm whether this is the case or not. Another option is to use the `-insecure` parameter in the game launch options to test only with insecure servers. Please use at your own risk and discretion.
+
 ## Table of Contents
 - [Information](#-information)
 - [Prerequisites](#-prerequisites)
-- [Disclaimer](#-disclaimer)
 - [How does this work?](#-how-does-this-work)
 - [What doesn't work?](#-what-does-not-work)
 - [Installation](#-installation)
@@ -17,9 +19,6 @@ On November 15th, 2024, Valve released the 20th Anniversary update for Half-Life
 ## ✅ Prerequisites
 To use this repository, you will need to have Steam for Linux installed as well as Half-Life 2: Deathmatch and Half-Life 2 purchased and installed on your desired Steam account.
 - Half-Life 2: Deathmatch is now available as a [bundle with Half-Life 2](https://store.steampowered.com/app/220/HalfLife_2/)
-
-## ⚠️ Disclaimer
-While this workaround should be safe using the official HL2 binary, it is not officially supported by Valve. There is always the risk this workaround could potentially trigger a VAC ban on the account being used. Please use at your own risk and discretion.
 
 ## ℹ️ How does this work?
 Half-Life 2's official Linux binary included with the 20th Anniversary update is (mostly) compatible with Half-Life 2: Deathmatch. This means it can currently be used as a drop-in replacement for its missing binary running alongside an updated launch script.
@@ -83,7 +82,7 @@ fi
 
 exit $STATUS
 ```
-## 🗑️ Removal
+## 🗑 Removal
 - Navigate to your **Half-Life 2: Deathmatch** root folder and delete two files, `hl2.sh` and `hl2_linux`. Additionally, there may be a launch script backup file `hl2.sh.bak`, which can also be deleted as well if you do not need it.
 
 ## 👥 Support
