@@ -71,8 +71,8 @@ function yesno {
     done
     echo -e "${ncl}"
 }
-function checksnap { if [ -d "$HOME/snap/steam/common/.local/share/Steam/steamapps/common" ]; then steampath="$HOME/snap/steam/common/.local/share/Steam/steamapps/common"; notice "Flatpak Install Detected"; fi }
-function checkflat { if [ -d "$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common" ]; then steampath="$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common"; notice "Snap Install Detected"; fi }
+function checkflat { if [ -d "$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common" ]; then steampath="$HOME/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common"; notice "Flatpak Install Detected"; fi }
+function checksnap { if [ -d "$HOME/snap/steam/common/.local/share/Steam/steamapps/common" ]; then steampath="$HOME/snap/steam/common/.local/share/Steam/steamapps/common"; notice "Snap Install Detected"; fi }
 function checkpath { if [ -d "$2" ]; then echo -e "${whb}[ ${grb}FOUND${whb} ] $1${ncl}"; else echo -e "${whb}[ ${rdb}ERROR${whb} ] $1 : ${red}'$2' ${ncl}\n"; exit 0; fi }
 function checkfile { if [ -f "$2" ]; then echo -e "${whb}[ ${grb}FOUND${whb} ] $1${ncl}"; else echo -e "${whb}[ ${rdb}ERROR${whb} ] $1 : ${red}'$2' ${ncl}\n"; exit 0; fi }
 function notice { echo -e "${whb}=> $1${ncl}"; sleep 1; }
